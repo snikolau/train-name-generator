@@ -12,8 +12,8 @@ export default function Home(props) {
   const handleClick = async (e) => {
     
     e.preventDefault();
-    const name = await axios.get("/.netlify/functions/name")
-    setName(name)
+    const newName = await axios.get("/.netlify/functions/name")
+    setName(newName.data)
   };
 
   return (
