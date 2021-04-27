@@ -23,7 +23,7 @@ const Navigation = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className="relative flex flex-row flex-wrap items-center justify-between px-2 py-3 bg-gray-500">
+      <nav className="relative flex flex-row flex-wrap items-center justify-between px-2 py-3 bg-green-500">
         <div className="container px-4 md:px-24 mx-auto flex flex-wrap items-center justify-items-start">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 
@@ -32,8 +32,7 @@ const Navigation = (props: Props) => {
               href="/"
             >
               <div className="flex flex-row">
-                <Image src={"/vercel.svg"} width="40" height="27" alt={props.label}></Image>
-                <div className="px-2 py-1">art</div>
+                <div className="px-2 py-1">Train Name Generator</div>
               </div>
             </a>
             <button

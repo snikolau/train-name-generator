@@ -1,4 +1,6 @@
+import generator from '../../src/generator'
 
 export default (req, res) => {
-  res.status(200).headers.json({ name: 'John Doe' })
+ 
+  res.status(200).json({ name: generator() })
 }
