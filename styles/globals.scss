@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$rich-black-fogra-29: #011627ff;
+$baby-powder: #fdfffcff;
+$tiffany-blue: #2ec4b6ff;
+$rose-madder: #e71d36ff;
+$orange-peel: #ff9f1cff;
+
+* {
+  font-family: Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial,
+    sans-serif;
+}
+header {
+  background: $tiffany-blue;
+}
